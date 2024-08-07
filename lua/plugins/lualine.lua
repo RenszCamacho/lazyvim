@@ -6,33 +6,28 @@ return {
 		local fileformat = {
 			"fileformat",
 			icons_enabled = true,
-			separator = { left = "", right = "" },
 		}
 
 		local windows = {
 			"windows",
 			icons_enabled = true,
-			separator = { right = "" },
 		}
 
 		local branch = {
 			"branch",
 			icons_enabled = true,
-			separator = { right = "" },
 		}
 
 		local mode = {
 			"mode",
 			icons_enabled = true,
-			separator = { right = "" },
 		}
 
 		return {
 			options = {
 				icons_enabled = true,
 				component_separators = " ~ ",
-				-- section_separators = { left = "", right = "" },
-				section_separators = { left = "", right = "" },
+				section_separators = { left = "", right = "" },
 			},
 			sections = {
 				lualine_a = { fileformat },
@@ -65,7 +60,6 @@ return {
 				lualine_z = {},
 			},
 			tabline = {},
-			-- extensions = { "fugitive" },
 		}
 	end,
 }

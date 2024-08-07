@@ -2,11 +2,6 @@ local tokyonight = {
 	"folke/tokyonight.nvim",
 	opts = {
 		style = "storm",
-		transparent = true,
-		styles = {
-			sidebars = "transparent",
-			floats = "transparent",
-		},
 	},
 }
 
@@ -58,7 +53,6 @@ local oceanicNext = {
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			transparent_background = true,
 			colorscheme = "OceanicNext",
 		},
 	},
@@ -81,8 +75,7 @@ local catppuccin = {
 		name = "catppuccin",
 		priority = 1000,
 		opts = {
-			flavour = "macchiato",
-			-- transparent_background = true,
+			flavour = "mocha",
 		},
 	},
 
@@ -94,4 +87,4 @@ local catppuccin = {
 	},
 }
 
-return everforest
+return onedark
